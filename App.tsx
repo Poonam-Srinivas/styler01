@@ -58,7 +58,6 @@ export default function App() {
   };
 
   const createPassword = (characters: string, passwordLength: number) => {
-    //ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+]
     let result = '';
     for (let i = 0; i < passwordLength; i++) {
       const characterIndex = Math.round(Math.random() * characters.length);
