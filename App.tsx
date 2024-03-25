@@ -242,7 +242,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#5DA3FA',
   },
   primaryBtnTxt: {
-    color: '#fff',
+    color: 'white',
     textAlign: 'center',
     fontWeight: '700',
   },
