@@ -97,7 +97,7 @@ export default function App() {
               handleReset,
               /* and other goodies */
             }) => (
-              <>
+              <View>
                 <View style={styles.inputWrapper}>
                   <View style={styles.inputColumn}>
                     <Text style={styles.heading}>Password Length</Text>
@@ -167,7 +167,7 @@ export default function App() {
                     <Text style={styles.secondaryBtnTxt}>Reset</Text>
                   </TouchableOpacity>
                 </View>
-              </>
+              </View>
             )}
           </Formik>
         </View>
